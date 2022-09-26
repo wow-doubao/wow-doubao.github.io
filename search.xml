@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>awaitTo.ts</title>
+      <link href="/2022/09/26/awaitTo/"/>
+      <url>/2022/09/26/awaitTo/</url>
+      
+        <content type="html"><![CDATA[<h1 id="awaitTo-ts"><a href="#awaitTo-ts" class="headerlink" title="awaitTo.ts"></a>awaitTo.ts</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">/**</span><br><span class="line"> * @param &#123; Promise &#125; promise</span><br><span class="line"> * @param &#123; Object= &#125; errorExt - Additional Information you can pass to the err object</span><br><span class="line"> * @return &#123; Promise &#125;</span><br><span class="line"> */</span><br><span class="line">export function to&lt;T, U = Error&gt; (</span><br><span class="line">  promise: Promise&lt;T&gt;,</span><br><span class="line">  errorExt?: object</span><br><span class="line">): Promise&lt;[U, undefined] | [null, T]&gt; &#123;</span><br><span class="line">  return promise</span><br><span class="line">    .then&lt;[null, T]&gt;((data: T) =&gt; [null, data])</span><br><span class="line">    .catch&lt;[U, undefined]&gt;((err: U) =&gt; &#123;</span><br><span class="line">      if (errorExt) &#123;</span><br><span class="line">        const parsedError = Object.assign(&#123;&#125;, err, errorExt)</span><br><span class="line">        return [parsedError, undefined]</span><br><span class="line">      &#125;</span><br><span class="line"></span><br><span class="line">      return [err, undefined]</span><br><span class="line">    &#125;)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">export default to</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> web </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> ts </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>测试</title>
+      <link href="/2022/09/25/%E6%B5%8B%E8%AF%95/"/>
+      <url>/2022/09/25/%E6%B5%8B%E8%AF%95/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World"></a>Hello World</h1>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
