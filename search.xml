@@ -8,7 +8,7 @@
       <link href="/2022/09/30/%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D/"/>
       <url>/2022/09/30/%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D/</url>
       
-        <content type="html"><![CDATA[<h1 id="1-域名解析"><a href="#1-域名解析" class="headerlink" title="1. 域名解析"></a>1. 域名解析</h1><ul><li>记录类型: CNAME</li><li>记录值: xxx.github.io (github pages默认分配的域名)</li></ul><h1 id="2-GitHub-Pages-配置"><a href="#2-GitHub-Pages-配置" class="headerlink" title="2. GitHub Pages 配置"></a>2. GitHub Pages 配置</h1><ul><li>项目根目录创建 CNAME 文件, 写入要绑定的自定义域名  如: baidu.com  (汉字域名需转换为url编码)<blockquote><p>push项目后等待github pages解析</p></blockquote></li></ul>]]></content>
+        <content type="html"><![CDATA[<h1 id="1-域名解析"><a href="#1-域名解析" class="headerlink" title="1. 域名解析"></a>1. 域名解析</h1><ul><li>记录类型: CNAME</li><li>记录值: xxx.github.io (github pages默认分配的域名)</li></ul><h1 id="2-GitHub-Pages-配置"><a href="#2-GitHub-Pages-配置" class="headerlink" title="2. GitHub Pages 配置"></a>2. GitHub Pages 配置</h1><ul><li>部署项目根目录创建 CNAME 文件, 写入要绑定的自定义域名  如: baidu.com  (汉字域名需转换为url编码)<blockquote><p>push项目后等待github pages解析</p></blockquote></li></ul>]]></content>
       
       
       <categories>
