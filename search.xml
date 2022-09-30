@@ -4,7 +4,7 @@
   
     
     <entry>
-      <title></title>
+      <title>github pages 绑定自定义域名</title>
       <link href="/2022/09/30/%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D/"/>
       <url>/2022/09/30/%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D/</url>
       
@@ -54,9 +54,9 @@
     
     
     <entry>
-      <title>测试</title>
-      <link href="/2022/09/25/%E6%B5%8B%E8%AF%95/"/>
-      <url>/2022/09/25/%E6%B5%8B%E8%AF%95/</url>
+      <title>The first</title>
+      <link href="/2022/09/25/The%20first/"/>
+      <url>/2022/09/25/The%20first/</url>
       
         <content type="html"><![CDATA[<h1 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World"></a>Hello World</h1>]]></content>
       
