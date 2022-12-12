@@ -8,3 +8,7 @@ img {
   cursor: url(https://cdn.jsdelivr.net/gh/constown/HexoCustomFile/public/cursors/pointer.cur),
     default;
 }
+
+#pagination .page-number.current{
+  background-color: #172B44;
+}
